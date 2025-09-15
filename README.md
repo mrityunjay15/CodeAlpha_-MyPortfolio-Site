@@ -9,13 +9,21 @@ The portfolio acts as my digital resume, providing an overview of who I am, the 
 
 ✨ Features
 🏠 Home Section – Clean intro with my name and tagline.
+
 👩‍💻 About Section – Short bio and technical skills.
+
 📂 Projects Section – Showcasing my works with GitHub/live links.
+
 📞 Contact Form – Functional form powered by Formspree.io.
+
 📑 Resume Download Button – One-click access to my resume.
+
 🔝 Back to Top Button – Smooth scrolling for better navigation.
+
 🎨 AOS Animations – Scroll-based animations using the AOS CSS library.
+
 📱 Responsive Design – Works perfectly on mobile, tablet, and desktop.
+
 🌙 Dark/Light Mode.
 
 🛠️ Tech Stack
