@@ -2,7 +2,7 @@
 
 🌐 My Portfolio Website
 
-This is my personal portfolio website created to showcase my Internship joureny At CodeAplha, highlight my skills, and display my projects. It is designed with a modern, responsive layout and smooth animations for an engaging user experience.
+This is my personal portfolio website created to showcase my Internship joureny At CodeAlpha, highlight my skills, and display my projects. It is designed with a modern, responsive layout and smooth animations for an engaging user experience.
 
 📖 About the Project
 
