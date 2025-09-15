@@ -5,9 +5,11 @@
 This is my personal portfolio website created to showcase my Internship joureny At CodeAplha, highlight my skills, and display my projects. It is designed with a modern, responsive layout and smooth animations for an engaging user experience.
 
 📖 About the Project
+
 The portfolio acts as my digital resume, providing an overview of who I am, the skills I’ve learned, and the projects I’ve built. Visitors can also download my resume, check out my work, and contact me directly.
 
 ✨ Features
+
 🏠 Home Section – Clean intro with my name and tagline.
 
 👩‍💻 About Section – Short bio and technical skills.
@@ -25,6 +27,7 @@ The portfolio acts as my digital resume, providing an overview of who I am, the 
 📱 Responsive Design – Works perfectly on mobile, tablet, and desktop.
 
 🌙 Dark/Light Mode.
+
 
 🛠️ Tech Stack
 
