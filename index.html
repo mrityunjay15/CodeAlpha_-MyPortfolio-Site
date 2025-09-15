@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mritunjay's Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav id="navbar">
+
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+  <button id="themeToggle" title="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <a href="images\MritunjayPrajapati.pdf" class="resume-btn" id="resumeBtn" download>
+    <i class="fas fa-download"></i> Resume
+  </a>
+
+
+  <header data-aos="fade-down">
+    <h1>MRITUNJAY PRAJAPTI</h1>
+    <p class="typing-text"></p>
+  </header>
+
+
+  <header>
+    <div class="timestamp" id="timestamp"></div>
+  </header>
+
+
+  <div class="about-folder-wrapper">
+    <div class="about-folder" onclick="toggleAboutMe()">
+      <i id="folderIcon" class="fas fa-folder"></i> About Me
+    </div>
+  </div>
+
+  <div class="about-container" style="display: none;">
+    <p id="typed-about"></p>
+  </div>
+
+  <!--education section -->
+
+  <section id="education" class="education" data-aos="fade-up">
+    <h2>EDUCATION</h2>
+    <div class="edu-timeline">
+      <div class="edu-item" data-aos="fade-right">
+        <h3>BCA - Bachelor of Computer Applications</h3>
+        <span class="edu-year">2023 - Present</span>
+        <p>Maharishi University, Lucknow</p>
+      </div>
+
+      <div class="edu-item" data-aos="fade-right">
+        <h3>Intermediate - Commerce with CS</h3>
+        <span class="edu-year">2022 - 2023</span>
+        <p>ISC BOARD - [LUCKNOW]</p>
+      </div>
+
+      <div class="edu-item" data-aos="fade-right">
+        <h3>High School - Commerce with CS & Maths</h3>
+        <span class="edu-year">2020 - 2021</span>
+        <p>ICSE BOARD [LUCKNOW]</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- skills section -->
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <h2>SKILLS</h2>
+    <div class="skills-bars">
+      <div class="bar">
+        <div class="label"><i class="fab fa-html5"></i> HTML</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 85%; background: #ff5733;"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+      </div>
+
+
+      <div class="bar">
+        <div class="label"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 85%; background: #2962ff;"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+      </div>
+
+
+      <div class="bar">
+        <div class="label"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 75%; background: #f7df1e;"></div>
+          </div>
+          <span class="percent">75%</span>
+        </div>
+      </div>
+
+
+      <div class="bar">
+        <div class="label"><i class="fab fa-java"></i> Java</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 85%; background: #e91e63;"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+      </div>
+
+
+      <div class="bar">
+        <div class="label"><i class="fab fa-react"></i> React</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 75%; background: #00d8ff;"></div>
+          </div>
+          <span class="percent">75%</span>
+        </div>
+      </div>
+
+
+      <div class="bar">
+        <div class="label"><i class="fas fa-leaf"></i> Spring Boot</div>
+        <div class="progress-wrapper">
+          <div class="progress">
+            <div class="fill" style="width: 80%; background: #00c853;"></div>
+          </div>
+          <span class="percent">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--experience section -->
+
+  <section id="experience" class="experience-section" data-aos="fade-up">
+    <h2>💼 EXPERIENCE</h2>
+
+    <div class="experience-container">
+
+      <div class="experience-card" data-aos="fade-up">
+        <h3>Computer Installation Engineer</h3>
+        <p class="company">Sagar Infosystem & Co</p>
+        <span class="duration">May 2021 - Apr 2022</span>
+        <ul>
+          <li>Installed, configured, and maintained computer systems, hardware, and software.</li>
+          <li>Provided troubleshooting support and technical assistance.</li>
+          <li>Assisted in system upgrades and optimization.</li>
+        </ul>
+      </div>
+
+
+      <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Sales Assistant</h3>
+        <p class="company">Reliable Computers</p>
+        <span class="duration">Dec 2024 - Apr 2024</span>
+        <ul>
+          <li>Managed customer interactions and assisted in sales.</li>
+          <li>Explained product features, benefits, and pricing.</li>
+          <li>Provided excellent customer service and maintained sales records.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- projects section -->
+
+  <section id="projects" data-aos="fade-up">
+
+    <h2 class="section-title">MY PROJECTS</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card" data-aos="zoom-in">
+        <img src="images\codingsite.png" alt="Coding Site">
+
+        <h3>Coding Site</h3>
+        <p>A complete Description about The tech ,The Coding History and different types of coding languages and latest
+          tech news</p>
+        <p class="tech-stack"><b>HTML • CSS • JS </b></p>
+        <div class="project-links">
+          <a href="https://mrityunjay15.github.io/Coding-site/" target="_blank">Live Demo</a>
+          <a href="https://github.com/mrityunjay15/Coding-site" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+
+      <div class="project-card" data-aos="zoom-in">
+        <img src="images\Calculator.png" alt="Calculator">
+        <h3>Calculator</h3>
+        <p class="project-desc">This is a Basic Calculator Project developed as part of my internship at CodeAlpha.
+          <span class="more-text">The calculator performs
+            simple arithmetic operations such as Addition, Subtraction, Multiplication, and Division with a clean and
+            user-friendly interface.</span>
+        </p>
+        <button class="read-more-btn">Read More</button>
+        <p class="tech-stack"><b> HTML • CSS • JS </b></p>
+
+        <div class="project-links">
+          <a href="https://mrityunjay15.github.io/CodeAlpha_Calculator/" target="_blank">Live Demo</a>
+          <a href="https://github.com/mrityunjay15/CodeAlpha_Calculator" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+
+      <div class="project-card" data-aos="zoom-in">
+        <img src="images\imagegallery.png" alt="Image Gallery">
+        <h3>Image Gallery</h3>
+        <p>A modern and responsive image gallery built with HTML, CSS, and JavaScript. this project developed as of part
+          of my Internship at CodeAlpha </p>
+        <p class="tech-stack"><b>HTML5 • CSS3 • JS , STOCK IMAGES </b></p>
+        <div class="project-links">
+          <a href="https://mrityunjay15.github.io/CodeAlpha_Image-Gallery/" target="_blank">Live Demo</a>
+          <a href="https://github.com/mrityunjay15/CodeAlpha_Image-Gallery" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+
+      <div class="project-card" data-aos="zoom-in">
+        <img src="images\TodoList.png" alt="TO-DO-LIST">
+        <h3>TO-DO LIST</h3>
+        <p>A very simple todo list where user can record there daily tasks and complete it by scheduling it.</p>
+        <p class="tech-stack"><b>HTML5 • CSS3 • JS</b></p>
+        <div class="project-links">
+          <a href="https://mrityunjay15.github.io/TO-DO-LIST/">Live Demo</a>
+          <a href="https://github.com/mrityunjay15/TO-DO-LIST">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in">
+
+        <img src="images\PWgen.png" alt="PasswordGenerator">
+        <h3>Password Generator</h3>
+        <p class="project-desc">
+          This project is a simple and effective Random Password Generator built to help users create strong
+          <span class="more-text"> and secure passwords for their online accounts</span>
+        </p>
+        <button class="read-more-btn">Read More</button>
+        <p class="tech-stack"><b>HTML5 • CSS3 • JS</b></p>
+        <div class="project-links">
+          <a href="https://mrityunjay15.github.io/Random-Password-generator/">Live Demo</a>
+          <a href="https://github.com/mrityunjay15/Random-Password-generator">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/mvgqzrzj" method="POST"> <!-- a litte form submission through formsree --> 
+      <input type="text" name="_honey" style="display:none">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
+
+
+  <div id="backToTop" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Mritunjay Prajapati. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/mrityunjay15" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mritunjayprajapati10/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
